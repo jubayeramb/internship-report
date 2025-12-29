@@ -1,0 +1,28 @@
+
+Version 1 changes-->
+
+1.  Organized & modified the title page
+2.  Modified the Certificate page
+3.  Added 'board of examiners' section in 'certificate' page
+4.  Added individual .tex files for each introductory pages & Chapters
+5.  Created a image folder for all image files
+6.  Modified the "Table of Contents" page for better look
+7.  Added a class file named GUB.cls
+8.  Changed page-style into 'plain' instead of using 'fancy'
+9.  Added algorithm example
+10. Changed bibliography to IEEE style (Added ieeetran.bst file)
+11. Added/removed some corresponding packages due to the modifications
+
+
+
+Version 2 changes-->
+1.  All the files are reorganized into folders
+2.  Table heading has been corrected and placed on top
+3.  Added/removed some corresponding packages due to the modifications
+4.  Added a tutorial file
+
+
+
+
+N.B. The template runs anywhere without any single error or warning.
+     All the modifications were made while working on Overleaf.

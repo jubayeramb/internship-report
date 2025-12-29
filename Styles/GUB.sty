@@ -1,0 +1,58 @@
+%-- Table of contents and lists --
+
+\def\dotfill{\leaders\hbox{$\m@th \mkern \@dotsep mu.\mkern \@dotsep mu$}\hfill}
+\def\producetableofcontents{\tableofcontents}
+\def\producelistoffigures{\listoffigures}
+\def\producelistoftables{\listoftables}
+\def\producelistofmaps{\listofmaps}
+\def\producelistofappendices{\listofappendices}
+\def\producelistofabbreviations{\listofabbreviations}
+
+% jj: The only difference is \dotfill instead of \hfil.
+\def\l@chapter#1#2{\pagebreak[3]
+ \vskip 1.0em plus 1pt \@tempdima 1.5em \begingroup % em is the width of capital M for the current font. -jg
+ \parindent \z@ \rightskip \@pnumwidth
+ \parfillskip -\@pnumwidth
+ {\bf \leavevmode #1}\dotfill \hbox to\@pnumwidth{\hss #2}\par
+ \endgroup
+}
+
+\def\l@chap{\@dottedtocline{1}{0.5em}{3.5em}}
+\def\l@section{\@dottedtocline{2}{5.0em}{2.3em}}
+\def\l@subsection{\@dottedtocline{3}{8.3em}{3.2em}}
+\def\l@subsubsection{\@dottedtocline{4}{12.5em}{4.1em}}
+
+\setcounter{tocdepth}{3} % Number of section layers to show in TOC (i.e. section, subsection, subsubsection)
+\setcounter{secnumdepth}{3} % Number of subsection layers to allow in document
+
+\def\l@figure{\@dottedtocline{1}{1.0em}{3.5em}}
+\let\l@table\l@figure
+\let\l@map\l@figure
+\let\l@anything\l@figure
+\def\l@appendix{\@dottedtocline{1}{1.0em}{2.5em}}
+\let\l@abbreviation\l@figure
+
+\def\tableofcontents{%
+ \newpage
+ %\@restonecolfalse\if@twocolumn\@restonecoltrue\onecolumn\fi
+ \hbox{ }
+ %\twoinmar
+ \centerline{\large\bf TABLE OF CONTENTS}
+ \vspace{0.7in}
+  \@starttoc{toc}\if@restonecol\twocolumn\fi
+}
+
+\def\startbibliography{% This sets things up for BibTeX
+% \clearpage
+% \hbox{}
+% \if@twoside \ifodd\c@page \else\thispagestyle{empty} \clearpage\hbox{} \fi\fi
+%\thispagestyle{chappage}
+ %\addcontentsline{toc}{chapter}{References}
+ %\hbox{ }
+% \vertadjust
+ %\vfill
+ %\centerline{\large\bf REFERENCES} % The half title page
+%\vfill
+%\renewcommand{\bibname}{\vspace{-.13in}\centerline{\large\bf REFERENCES}}
+\renewcommand{\bibname}{\centerline{\large\bf REFERENCES}}
+}

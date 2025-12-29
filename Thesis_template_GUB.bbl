@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+
+\bibitem{reactlearn2024}
+{Meta Platforms, Inc.}
+\newblock React learn: Getting started with react.
+\newblock \url{https://react.dev/learn}, 2024.
+\newblock Accessed: December 2025.
+
+\bibitem{nextjsdocs2024}
+{Vercel Inc.}
+\newblock Next.js documentation.
+\newblock \url{https://nextjs.org/docs}, 2024.
+\newblock Accessed: December 2025.
+
+\bibitem{tailwindcss2024}
+{Tailwind Labs Inc.}
+\newblock Tailwind css documentation.
+\newblock \url{https://tailwindcss.com/docs/installation/using-vite}, 2024.
+\newblock Accessed: December 2025.
+
+\bibitem{wecycle2024}
+{WeCycle}.
+\newblock Wecycle: Eco-friendly junk removal and recycling services.
+\newblock \url{https://getwecycle.com/}, 2024.
+\newblock Accessed: December 2025.
+
+\bibitem{wecyclehauler2024}
+{WeCycle}.
+\newblock Wecycle hauler: Professional junk hauling services.
+\newblock \url{https://getwecycle.com/hauler}, 2024.
+\newblock Accessed: December 2025.
+
+\end{thebibliography}

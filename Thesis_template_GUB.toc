@@ -1,0 +1,92 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Declaration}{i}{chapter*.2}%
+\contentsline {chapter}{Certificate}{ii}{chapter*.3}%
+\contentsline {chapter}{Acknowledgments}{iii}{chapter*.4}%
+\contentsline {chapter}{Abstract}{iv}{chapter*.5}%
+\contentsline {chapter}{List of Figures}{x}{chapter*.6}%
+\contentsline {chapter}{List of Tables}{xi}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Problem Domain}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Motivation of Training}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Training Goals}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Scope of Training}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Scope of Training}{3}{section.1.5}%
+\contentsline {section}{\numberline {1.6}The Reality Check: Academia vs. Industry}{4}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Pain Points \& Growth}{5}{section.1.7}%
+\contentsline {subsection}{\numberline {1.7.1}The Hard Stuff (Challenges)}{5}{subsection.1.7.1}%
+\contentsline {subsection}{\numberline {1.7.2}Where I Grew}{5}{subsection.1.7.2}%
+\contentsline {section}{\numberline {1.8}Detailed Plan}{5}{section.1.8}%
+\contentsline {subsection}{\numberline {1.8.1}Resources}{5}{subsection.1.8.1}%
+\contentsline {subsection}{\numberline {1.8.2}Timeline}{6}{subsection.1.8.2}%
+\contentsline {section}{\numberline {1.9}Risk Analysis: What Could Go Wrong?}{6}{section.1.9}%
+\contentsline {section}{\numberline {1.10}Report Outline}{7}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Conclusion}{7}{section.1.11}%
+\contentsline {chapter}{\numberline {2}Organization Overview}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Company Profile}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Company Background}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Key Services}{9}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Work Environment}{10}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Mission and Vision}{10}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Core Values}{10}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}Organizational Structure}{11}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Type of Organization}{11}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Hierarchical Overview}{11}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Interactions with Various Departments}{12}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Collaboration with Team Leads}{12}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Cross-Functional Coordination}{12}{subsection.2.3.5}%
+\contentsline {section}{\numberline {2.4}Products/Services}{13}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}WeCycle Dashboard Application (WCAPP)}{13}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Technology Stack}{17}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Clients}{17}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Direct Involvement of Resources During Training}{17}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Constructive Feedback About the Training Program}{18}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Conclusion}{19}{section.2.8}%
+\contentsline {chapter}{\numberline {3}Specific Details on Training Activities and Report}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{20}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Weekly Duties and Activities}{21}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Weekly Duties and Activities}{21}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Week 1: Bootstrapping \& Environment Setup (October 13-17, 2025)}{21}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Week 2: Infrastructure \& Deployment (October 20-24, 2025)}{21}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Week 3: Data Management \& Optimization (October 27-31, 2025)}{22}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Week 4: Branding \& ArrayQ Development (November 03-07, 2025)}{22}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Week 5: Deployment \& Role Management (November 10-14, 2025)}{23}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Week 6: UX Refinements \& Performance (November 17-21, 2025)}{23}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Week 7: Pricing \& Pre-Production (November 24-28, 2025)}{24}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}Week 8: Fintech \& Final Polish (December 01-05, 2025)}{24}{subsection.3.3.8}%
+\contentsline {section}{\numberline {3.4}Key Projects}{25}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Project 1: ArrayQ Platform Development}{25}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Project 2: Invoice \& Payment System Modernization}{25}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Project 3: Chatbot \& Support Integration}{26}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Other Responsibilities}{27}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Internship Summary}{27}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Acquired Skills During Industrial Training}{30}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{30}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Tech Stack: What I Actually Learned}{30}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}React.js and Next.js \cite {reactlearn2024, nextjsdocs2024}}{30}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Frontend: React.js \& Next.js}{31}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Backend: Node.js \& Databases}{31}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Mobile: Capacitor \& React Native}{32}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}DevOps: Docker \& CI/CD}{32}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}TypeScript}{32}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}CSS/SCSS, Tailwind CSS, and Responsive Design \cite {tailwindcss2024}}{32}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Git and Version Control}{33}{subsection.4.2.8}%
+\contentsline {section}{\numberline {4.3}Theoretical Knowledge vs. Reality}{33}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Software Development Concepts}{33}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Development Methodologies}{34}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Practical Knowledge: The "How-To"}{34}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Soft Skills (The Stuff That Actually Matters)}{35}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Collaborating Without Killing Each Other}{35}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Ethics \& Professionalism}{35}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Conclusion}{36}{section.4.8}%
+\contentsline {chapter}{\numberline {5}Conclusion}{37}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary}{37}{section.5.1}%
+\contentsline {section}{\numberline {5.2}The Real Challenges}{38}{section.5.2}%
+\contentsline {section}{\numberline {5.3}What I Actually Did (Scope)}{38}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Problems I Solved}{39}{section.5.4}%
+\contentsline {section}{\numberline {5.5}The Verdict (Overall Achievement)}{39}{section.5.5}%
+\contentsline {chapter}{Annexure: PO-Skill Mapping}{41}{chapter*.21}%
+\contentsline {chapter}{Annexure: SDG–Goal Mapping}{45}{chapter*.22}%
+\contentsline {chapter}{Appendix}{50}{chapter*.23}%
+\contentsline {chapter}{References}{53}{chapter*.28}%
+\contentsline {chapter}{List of Symbols}{55}{chapter*.30}%

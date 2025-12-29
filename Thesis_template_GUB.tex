@@ -1,0 +1,153 @@
+ \documentclass[12pt]{report}
+% ---------------------- Required Packages ----------------------
+\usepackage{Styles/GUB}               % Custom style
+
+\usepackage[english]{babel}          % English language
+\usepackage{graphicx}                % Graphics inclusion
+\usepackage{caption}
+\usepackage{subcaption}             % Subfigures
+\usepackage{float}                  % For forcing table/figure position
+\usepackage{amsmath, amssymb, amsfonts} % Math packages
+\usepackage{bm}                     % Bold math
+\usepackage{mathptmx}               % Times font
+\usepackage{siunitx}                % SI units
+\usepackage{array}                  % Extended tables
+\usepackage{longtable}
+\usepackage{adjustbox}
+\usepackage{booktabs}               % Better tables
+\usepackage{multirow}
+\usepackage{tabularx}               % Tables with flexible columns
+\usepackage[table]{xcolor}
+\usepackage{url}                    % Format URLs
+\usepackage{xcolor}                 % Colored text
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+%\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{lipsum}                 % Dummy text
+\usepackage{fancyhdr}               % Fancy headers
+\usepackage{epstopdf}               % EPS support
+\usepackage{enumerate}              % Custom enumeration
+\usepackage[utf8]{inputenc}
+
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=magenta,
+    citecolor=magenta,
+    urlcolor=magenta,
+    filecolor=magenta
+}
+
+\usepackage[a4paper, left=1.5in, right=1in, bottom=1.3in]{geometry}
+
+\usepackage{ragged2e}
+\usepackage[utf8]{inputenc}
+
+\hypersetup{colorlinks=true, linkcolor=black, filecolor=magenta, urlcolor=cyan}
+\usepackage[nottoc,notlof,notlot]{tocbibind} 
+\usepackage{pifont}                 % Special symbols
+\usepackage{lscape}                 % Landscape tables
+\usepackage{mwe}                    % Example images
+\usepackage{nomencl}                % List of symbols
+\usepackage{algorithm2e}            % Algorithms
+\usepackage{epsfig}                 % EPS figures (if needed)
+\usepackage{listings}
+
+% \usepackage{tikz}
+% \usetikzlibrary{arrows,positioning}
+% \usetikzlibrary{positioning}
+
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    commentstyle=\color{gray},
+    stringstyle=\color{purple},
+    showstringspaces=false,
+    breaklines=true,
+    frame=single
+}
+
+
+\lstdefinestyle{tree}{
+  basicstyle=\ttfamily\small,
+  backgroundcolor=\color{gray!5},
+  frame=single,
+  breaklines=true,
+  showstringspaces=false
+}
+
+\lstdefinestyle{bash}{
+    backgroundcolor=\color{gray!10},
+    basicstyle=\ttfamily\footnotesize,
+    frame=single,
+    breaklines=true,
+    showstringspaces=false,
+    language=bash
+}
+
+% ---------------------- Algorithm2e Settings ----------------------
+\SetKwInput{KwInput}{Input}
+\SetKwInput{KwOutput}{Output}
+\newcommand\mycommfont[1]{\footnotesize\ttfamily\textcolor{blue}{#1}}
+\SetCommentSty{mycommfont}
+\SetAlgoNlRelativeSize{0}
+
+% ---------------------- General Settings ----------------------
+\renewcommand{\baselinestretch}{1.5}
+\pagestyle{plain}
+\renewcommand{\labelenumi}{\alph{enumi}.}
+
+% ---------------------- Column Types for Tables ----------------------
+\newcolumntype{C}{>{\raggedright\arraybackslash}p{18em}}
+\newcolumntype{D}{>{\raggedleft\arraybackslash}p{15.5em}}
+
+\begin{document}
+
+% ---------------------- Front Matter ----------------------
+\input{Front_pages/Title_page.tex}
+\pagenumbering{roman}
+\input{Front_pages/Declaration.tex}
+\input{Front_pages/Certificate.tex}
+\input{Front_pages/Acknowledgement.tex}
+\include{Abstract}
+
+\tableofcontents
+\newpage
+\listoffigures
+\addcontentsline{toc}{chapter}{List of Figures}
+\newpage
+\listoftables
+\addcontentsline{toc}{chapter}{List of Tables}
+
+% ---------------------- Main Matter ----------------------
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{Chapters/Chapter_1.tex}
+\input{Chapters/Chapter_2.tex}
+\input{Chapters/Chapter_3.tex}
+\input{Chapters/Chapter_4.tex}
+\input{Chapters/Chapter_5.tex}
+\input{Chapters/Chapter_6.tex}
+\input{Chapters/Chapter_7.tex}
+\input{Chapters/Chapter_8.tex}
+
+% ---------------------- References ----------------------
+\renewcommand\bibname{References}
+\bibliographystyle{unsrt}
+\bibliography{myRef}
+
+% ---------------------- Back Matter ----------------------
+\input{Back_pages/list_of_acronyms.tex}
+\input{Back_pages/list_of_symbols.tex}
+
+\end{document}

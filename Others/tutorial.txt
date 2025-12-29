@@ -1,0 +1,18 @@
+
+
+1.  Start learning latex by reading the short tutorial-->
+        https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
+
+2.  Discover a lot of templates here-->
+        https://www.overleaf.com/latex/templates
+
+3.  To have an experience creating tables alike MS word-->
+        https://www.tablesgenerator.com/
+
+4.  Writing algorithms-->
+        http://shantoroy.com/latex/how-to-write-algorithm-in-latex/
+
+5.  Use the extension "Bibtex entry from URL" in Google Chrome to cite webpages
+
+6.  Use "p" instead of "c" in tables if the contents are large paragraphs
+    example given in Table 3.2
