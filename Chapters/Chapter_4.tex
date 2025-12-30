@@ -3,139 +3,135 @@
 
 \section{Introduction}
 
-\par Before this internship, my understanding of JavaScript was academic. Tanbel Inc. changed that. It forced me to move beyond "code that works" to "code that survives production." The training wasn't a guided tutorial. It was an immersion into the chaotic reality of modern web development. Over eight weeks, I didn't just learn React.js and Next.js definitions; I used them to build scalable, crash-resistant interfaces. I learned that in the industry, scalability isn't a bonus feature. It's the baseline.
+\par Before this internship, My academic knowledge on Javascript and self taught React and NextJS knowledge was basic. I could build functional websites with that but WeCycle changed that. It teaches me the difference between functional and production ready code. It also help me to escape tutorial hell and start utilizing documentations. I learned how to make any UI designs pixel perfect using code. Go beyond my work scope to learn new things and implement backend logic also. WeCycle gave me that opportunity and give a headstart on my career.
 
-\section{Tech Stack: What I Actually Learned}
+\section{Learning New Technologies and Applying Them to Solve
+Engineering Problems}
 
 \subsection{React.js and Next.js \cite{reactlearn2024, nextjsdocs2024}}
 \begin{itemize}
     \item \textbf{Proficiency Level:} From "Tutorial Hell" to Building Production Features.
     \item \textbf{The Real Skills:}
     \begin{itemize}
-        \item \textbf{Thinking in Components:} Breaking a UI down until it's just tiny, reusable Lego blocks.
-        \item \textbf{State Management Nightmares:} Learning (the hard way) why prop drilling is bad and why Context isn't always the answer.
-        \item \textbf{Next.js Magic:} Understanding why we use it—Server Side Rendering (SSR) for speed and SEO, not just because it's trendy.
+        \item \textbf{Component based Architecture:} Dummy project did not care about maintainability, so we can write the whole code in one file. But for production ready code, we need to think long term maintenance. Where modular code and abstraction hides complexity and make it easier to maintain.
+        \item \textbf{State Management:} Most of my University projects, I used a lot of state which was not a problem back then. But when comes to large codebases every rerender matters. There code be 100 lines of state which is scary to manage. Where I learn that we can use React context api and hooks to abstract the complexity.
+        \item \textbf{Next.js:} Understanding when to use client side rendering and when to use server side rendering was eye opening. I was using client side rendering in every places but When we need SEO and performance over functionality server side rendering is way to go.
     \end{itemize}
-    \item \textbf{Proof of Work:} I built the Job Details page, the Blog layout, and the ArrayQ landing page. More impressively? I migrated 10+ pages from Ant Design to our new system without breaking them.
 \end{itemize}
-\begin{itemize}
-    \item \textbf{Languages:} JavaScript (ES6+), TypeScript, SQL, HTML5, CSS3/SCSS.
-    \item \textbf{Frontend:} React.js, Next.js (App Router), React Native, Capacitor.js, Tailwind CSS.
-    \item \textbf{Backend:} Node.js, Express.js.
-    \item \textbf{Database:} MongoDB, PostgreSQL.
-    \item \textbf{DevOps \& Tools:} Docker, Nginx, Nx Monorepo, GitHub Actions (CI/CD), Jira, Git.
-\end{itemize}
-
-\subsection{Frontend: React.js \& Next.js}
-\par React isn't just a library; it's a way of thinking. I learned to deconstruct complex UIs into atomic, reusable components. Next.js taught me the power of Server-Side Rendering (SSR) for performance and SEO, crucial for the ArrayQ landing page.
-
-\subsection{Backend: Node.js \& Databases}
-\par Understanding the backend was key to being effective. I worked with Node.js and Express to build robust APIs. Managing data in MongoDB and PostgreSQL taught me the importance of schema design and query optimization. I realized that a fast frontend is useless if the database query takes three seconds.
-
-\subsection{Mobile: Capacitor \& React Native}
-\par Bridging the web-to-mobile gap. I used Capacitor to wrap our web app for iOS/Android deployment and touched on React Native for efficient native module handling.
-
-\subsection{DevOps: Docker \& CI/CD}
-\par "It works on my machine" is not an excuse. I used Docker to ensure consistent environments across dev, staging, and production. Setting up GitHub Actions for CI/CD pipelines automated our testing and deployment, significantly reducing manual errors.
 
 \subsection{TypeScript}
 \begin{itemize}
-    \item \textbf{Proficiency Level:} Intermediate (I stopped hating the red squiggly lines).
+    \item \textbf{Proficiency Level:} Intermediate.
     \item \textbf{The Real Skills:}
     \begin{itemize}
-        \item \textbf{Type Safety:} Realizing that defining `interface User` now saves me three hours of debugging later.
-        \item \textbf{Generics:} Writing components that work with any data type, which makes you feel like a wizard.
+        \item \textbf{Type Safety:} In my personal projects, I always use keyword "any" for most cases. But I can do it on real world applications. I had to learn the proper way to use typescripts type safety.
+        \item \textbf{Generics:} In large codebase, reusability is the key. Generic type is supercharge to make the code reusable.
     \end{itemize}
-    \item \textbf{Proof of Work:} implemented type definitions that caught bugs at compile time, which meant fewer crashes in production.
 \end{itemize}
 
-\subsection{CSS/SCSS, Tailwind CSS, and Responsive Design \cite{tailwindcss2024}}
+\subsection{Tailwind CSS, and Responsive Design \cite{tailwindcss2024}}
 \begin{itemize}
     \item \textbf{Proficiency Level:} Advanced.
     \item \textbf{The Real Skills:}
     \begin{itemize}
-        \item \textbf{Flexbox \& Grid:} Finally understanding how to center a div without guessing.
-        \item \textbf{Tailwind CSS:} It looks ugly at first, but writing styles directly in the markup is incredibly fast once you get used to it.
-        \item \textbf{The iPad Problem:} Mobile is easy; desktop is easy. Tablets are the awkward middle child that breaks everything. I learned to fix that.
+        \item \textbf{Pixel Perfect Design:} I have to implement all the design made by our designer in code. These need to be perfect based on style, aligned and functionality.
+        \item \textbf{Tailwind CSS:} I primarily used tailwind CSS for styling. Now, I can implement designs which confidence and it takes less time to implement a design.
     \end{itemize}
-    \item \textbf{Proof of Work:} I fixed layout issues on 15+ components that looked broken on iPads.
+\end{itemize}
+
+\subsection{Backend Development}
+\begin{itemize}
+    \item \textbf{Proficiency Level:} Intermediate
+    \item \textbf{The Real Skills:}
+    \begin{itemize}
+        \item \textbf{Node.js \& Express:} Built and maintained RESTful APIs for the dashboard and mobile app.
+        \item \textbf{Database Management:} Worked with MongoDB (NoSQL) and PostgreSQL to manage user data, bookings, and inventory using Prisma/Mongoose.
+        \item \textbf{Payment Integration:} Implemented Stripe Connect for splitting payments between platform and haulers.
+    \end{itemize}
+\end{itemize}
+
+\subsection{DevOps \& Infrastructure}
+\begin{itemize}
+    \item \textbf{Proficiency Level:} Intermediate
+    \item \textbf{The Real Skills:}
+    \begin{itemize}
+        \item \textbf{Docker:} Containerized the Chatbot service for consistent deployment across environments.
+        \item \textbf{Cloud Services:} Managed DigitalOcean droplets, configured Nginx reverse proxies, and set up SSL certificates using Certbot.
+        \item \textbf{CI/CD:} Optimized GitHub Actions pipelines to reduce build times.
+    \end{itemize}
 \end{itemize}
 
 \subsection{Git and Version Control}
 \begin{itemize}
-    \item \textbf{Proficiency Level:} Survival Mode -> Comfortable.
+    \item \textbf{Proficiency Level:}  Expert
     \item \textbf{The Real Skills:}
     \begin{itemize}
-        \item \textbf{Merge Conflicts:} I stopped panicking when `git merge` failed and learned how to actually read the conflict markers.
-        \item \textbf{Pull Requests:} Writing descriptions that clearly explain *what* I changed and *why*, so my reviewer doesn't have to guess.
-    \end{itemize}
-    \item \textbf{Proof of Work:} Managed 70+ Jira tickets/feature branches. I broke the build once or twice, but I fixed it.
+        \item \textbf{Pull Requests:} In my project, I would directly push my code on the main branch. But in real project it is not feasible as the code can break the production. So I learned to use Pull Requests and code review before merging into main.
+        \item \textbf{Merge Conflicts:} As different developers are working on different features. Most of the time there was merge conflicts. So, I need to understand the process and resolve the merge conflicts get both features working at the same time.
 \end{itemize}
 
 
-\section{Theoretical Knowledge vs. Reality}
+\section{Theoretical Knowledge Gained}
 
 \subsection{Software Development Concepts}
 \begin{itemize}
-    \item \textbf{Component Architecture:} It’s not just about splitting files; it’s about modularity. If I change the button style in one place, it should update everywhere.
-    \item \textbf{Data Flow:} React is strict. Data flows down. Events flow up. Fighting this leads to messy code.
-    \item \textbf{APIs:} Frontend is useless without data. I learned how to fetch, cache, and handle errors gracefully when the backend is slow.
+    \item \textbf{Components:} splitting files and modularity is important for large codebases. If I change the button style in one place, it should update everywhere.
+    \item \textbf{APIs:} Frontend is useless without data. I learned how to fetch, and handle errors when the backend is not responding as expected.
+    \item \textbf{Caching:} Fetching data every time is a bad idea for most of the time. React Query helps browser level caching for that.
 \end{itemize}
 
 \subsection{Development Methodologies}
 \begin{itemize}
-    \item \textbf{Agile/Scrum:} It’s not just buzzwords. Daily standups keep you accountable. Sprint planning forces you to be realistic about how long things take.
-    \item \textbf{Code Reviews:} The most humbling part. Getting feedback isn't an insult; it's how you get better.
+    \item \textbf{Agile:} Daily standups on my work updates and bi-weekly sprint planning forces me to align with business goals.
+    \item \textbf{Code Reviews:} The most humbling part. I get to know that I do not know everything. There is a lot to learn. Code review is not insulting, it is learning opportunity.
 \end{itemize}
 
-\section{Practical Knowledge: The "How-To"}
+\section{Practical Knowledge Acquired}
 
-\par If I wanted to start my own dev shop tomorrow, here’s what I’d actually need to know (based on what I saw at WeCycle):
+\par The following things I have learnt from WeCycle.
 
 \begin{itemize}
     \item \textbf{The Worksflow:}
     \begin{itemize}
-        \item Don't reinvent the wheel. Use existing libraries (like shadcn/ui) to move fast.
-        \item Set up the linter/formatter (ESLint/Prettier) \textit{before} you write a single line of code.
+        \item Don't reinvent the wheel. Use open source tools and library so speed up the process.
+        \item Use latest but reliable tools and update tools regularly which make the developer experience way better.
     \end{itemize}
     \item \textbf{Debugging:}
     \begin{itemize}
-        \item `console.log` is fine, but the React DevTools profiler is better.
-        \item If it works on your machine, that means nothing. Test it on a phone.
+        \item Learn to use React DevTools, it is much better than traditional console logging every variable.
+        \item Use Postman and other tools which are helpful for api related bugs.
     \end{itemize}
     \item \textbf{Startup Logistics:}
     \begin{itemize}
-        \item You need 2-3 solid frontend devs, a backend wizard, and a designer who understands HTML.
-        \item Budget? You need at least \$10k-\$20k to keep the lights on for a few months while you build the MVP.
+        \item Build a simple team which designer, frontend and backend developer and create MVP as fast as possible. Then as the product is start generating revenue, the team can be expanded.
     \end{itemize}
 \end{itemize}
 
-\section{Soft Skills (The Stuff That Actually Matters)}
+\section{Communication Skills Developed}
 
 \begin{itemize}
     \item \textbf{Communication:}
     \begin{itemize}
-        \item \textbf{Writing Tickets:} A Jira ticket saying "Fix code" is useless. "Fix null pointer on User Profile load" is helpful.
-        \item \textbf{Asking Questions:} I learned to ask "How does this auth flow work?" instead of "I'm stuck."
+        \item \textbf{Writing Tickets:} I need to write my own Jira tickets for my own task.
+        \item \textbf{Asking Questions:} I stop assuming and start asking questions which helped me to gain additional information and reduce my after work refinement.
     \end{itemize}
     \item \textbf{Teamwork:}
     \begin{itemize}
-        \item \textbf{Standups:} Keep it short. What did you do? What are you doing? Are you blocked?
-        \item \textbf{Remote Etiquette:} If you're on a video call, mute yourself when you're typing. It’s the little things.
+        \item \textbf{Standups:} I learn to explain my whole day of work in short 5 minutes meetings.
+        \item \textbf{Remote Etiquette:} I try to keep my camera open for most of the time which help me connect better.
     \end{itemize}
 \end{itemize}
 
 \section{Collaborating Without Killing Each Other}
 
 \begin{itemize}
-    \item \textbf{Designers:} They want pixel perfection. I learned to respect the Figma file and not just "eyeball it."
-    \item \textbf{Backend:} They handle the data. I need to tell them exactly what JSON format I expect, or we both have a bad time.
-    \item \textbf{QA:} They are paid to break my code. I learned to appreciate them, even when they found bugs I swore didn't exist.
+    \item \textbf{Designers:} They want pixel perfection. So I need to make sure everything is according to the design. Sometime, I don't find something which should be on the design instead of blaming I simplly ask for changes.
+    \item \textbf{Backend:} They need the proper utilization of the server. So, I need to fetch data when needed and utilize caching and other technics to minimize the load from the server.
 \end{itemize}
 
 \section{Ethics \& Professionalism}
 
-\par It sounds heavy, but ethics in coding is simple: Don't lie, and don't write garbage code on purpose.
+\par In professional environment trust is everything. As we are working remotely there is no way to monitor every single steps we make during our working hours. We do not lie about our work with others. We try to write clean code. Writing bad code is a liability for the organization.
 
 \begin{table}[H]
 \centering
@@ -155,4 +151,4 @@
 
 \section{Conclusion}
 
-\par This training successfully converted theoretical computer science concepts into deployment-ready engineering skills. It proved that coding is merely the mechanism for solving business problems. While I have gained significant proficiency in Next.js and TypeScript, the primary takeaway is behavioral: I now understand how to function within an agile team, how to internalize critical feedback, and how to ship value under pressure. I entered as a student. I leave as a developer ready for the market.
+\par I have successfully completed my training and learnt a lot of things during the process. I learnt how to make the scalable and production ready applications. My proficiency on the tools and technologies improved and get to use unfamiliar tools which are not familiar to me.

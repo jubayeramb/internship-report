@@ -4,7 +4,7 @@
 
 \section*{A. Weekly Activity Log Summary}
 
-\par The following table provides a summary of the key activities performed during each week of the industrial training at WeCycle:
+\par The table below gives an overview of the activities involved in each week of the industrial training at WeCycle:
 
 \begin{longtable}{|p{2cm}|p{13cm}|}
 \caption{Weekly Engineering Log: Key Milestones} \label{tab:weekly-summary} \\
@@ -24,47 +24,54 @@
 \hline
 \endlastfoot
 
-\textbf{Week 1} \newline (Oct 13 - Oct 17) & \textbf{Bootstrapping \& Mobile Config.} Setup Capacitor environment. Fixed persistent navigation bugs in mobile view. Resolved safe-area layout issues and timezone mismatches. \\
+\textbf{Week 1} & \textbf{Bootstrap and Environment Configuration.} Configuration of Node.js and Next.js local environment. Overcame first conflicts regarding `npm'. Researching the WCAPP codebase to comprehend the folder structure and the reasoning therefor (messy). First Jira tickets received: primarily UI tasks to help get my feet wet. \\
 \hline
-\textbf{Week 2} \newline (Oct 20 - Oct 24) & \textbf{Deployment \& Chatbot.} Configured DigitalOcean Droplet. Dockerized the application. Deployed AI Chatbot to staging. Fixed booking time slot logic. \\
+
+\textbf{Week 2} & \textbf{The Great Migration Begins.} Started moving legacy Ant Design components to add to our new custom library. This was not merely cut and rewriting the logic to conform to the new props. Resolved a serious issue with resetting passwords that was blocking users. Felt like a real dev for the first time. \\
 \hline
-\textbf{Week 3} \newline (Oct 27 - Oct 31) & \textbf{Data \& ArrayQ Init.} Implemented CSV exports for junk items. Initialized ArrayQ project structure. Enhanced Hauler details page. Added GDPR account deletion actions. \\
+
+\textbf{Week 3} & \textbf{Deep Dive into Data.} Migrated complex list pages: Invoices, Customers. Implemented heavy form validation using Zod (or similar logic). Realized how much of the invalid data users attempted to enter. Active participant in standups—actually spoke up about blockers rather than remaining silent. \\
 \hline
-\textbf{Week 4} \newline (Nov 03 - Nov 07) & \textbf{Branding \& Privacy.} Implemented multi-tenant branding for WeCycle/ArrayQ. Added dynamic logo switching on invoices. Created privacy policy pages. Fixed timezone creation bugs. \\
+
+\textbf{Week 4} & \textbf{Building from Scratch.} Created layout for the Job Details page. This is a core page, and thus the pressure was on. Blog layout has also been created. Spent days fighting with CSS alignment to get pixels perfect. Solved a pesky bug with chat attachments that everyone ignored. \\
 \hline
-\textbf{Week 5} \newline (Nov 10 - Nov 14) & \textbf{RBAC \& App Store.} Configured Blog Manager roles. Updated mobile assets for ArrayQ. Prepared production build for App Store submission. Debugged discount calculations. \\
+
+\textbf{Week 5} & \textbf{The Tablet War.} Was devoted entirely to the topic of iPad support. Fixed 15+ UI issues that manifested only on tablets (e.g., issues with overflow, touch targets). Learning lesson: Browsers are lying; test on real devices. Data fetching optimization for the Settings page to stop the spinner from spinning forever. \\
 \hline
-\textbf{Week 6} \newline (Nov 17 - Nov 21) & \textbf{UX \& Compliance.} Resolved App Store rejection issues. Simplified mobile UI (hiding item prices). Fixed Trustpilot email triggers. Refactored booking IDs for readability. \\
+
+\textbf{Week 6} & \textbf{Shipping Features.} Finished the ArrayQ landing page. It needed to be fast and look good. Completed migrations on the last set of components. Code reviews were stricter; I learned to deal effectively with ``Changes Requested'' without making it personal. \\
 \hline
-\textbf{Week 7} \newline (Nov 24 - Nov 28) & \textbf{Security \& Pre-Prod.} Implemented OTP verification. Set up Pre-Production environment. Fixed SMTP configurations. Audit of mobile pricing displays. \\
+
+\textbf{Week 7} & \textbf{Handover \& Reflection.} Final regression to check I hadn't broken anything before leaving. Documented my code (because I hate it when others don't). Knowledge transfer with the team. Wrapped up the internship with a final evaluation. WeCycle has survived my code. \\
 \hline
-\textbf{Week 8} \newline (Dec 01 - Dec 05) & \textbf{Fintech \& Handover.} Integrated Stripe Connect for Hauler payouts. Upgraded Next.js/React versions. Finalized documentation and code handover. \\
+
+\textbf{Week 8} & \textbf{FinTech \& Finalization.} Implemented Stripe Connected Accounts to automate hauler payouts. Upgraded the entire stack to latest Next.js and React versions. Wrote comprehensive documentation for the next developer. \\
 \hline
 \end{longtable}
 
 \section*{B. Technologies and Tools Used}
-\par The following stack wasn't just "used"; it was my daily reality:
+\par The stack below was more than just ``used'' – it was my reality:
 \begin{itemize}
-    \item \textbf{React.js \& Next.js 14:} The core engine. I learned to love (and hate) server-side rendering.
-    \item \textbf{TypeScript:} It stopped me from pushing broken code. Essential for team safety.
-    \item \textbf{Tailwind CSS:} Ugly in the HTML, but beautiful for shipping features fast.
+    \item \textbf{React.js \& Next.js 14:} The essential engine. I learned to love and hate server-side rendering.
+    \item \textbf{TypeScript:} Prevented me from submitting bug-ridden code. Absolutely necessary for team safety.
+    \item \textbf{Tailwind CSS:} You can have ugly HTML but beautiful features to deliver.
     \item \textbf{Git \& GitHub:} The undo button for my mistakes.
-    \item \textbf{Jira:} The source of truth for "what am I supposed to do today?"
+    \item \textbf{Jira:} The Source of Truth for: ``What am I supposed to do today?''
     \item \textbf{Chrome DevTools:} Where I spent 60\% of my time debugging.
 \end{itemize}
 
 \section*{C. Key Accomplishments Summary}
 \begin{itemize}
-    \item \textbf{Shipped Code:} Completed 35+ Jira tickets. These weren't tutorials; they were production changes.
+    \item \textbf{Shipped Code:} Finished 71+ Jira tasks. These were not tutorials; they were production changes.
     \item \textbf{Legacy Killer:} Migrated 10+ pages away from the old, slow Ant Design system.
-    \item \textbf{Tablet Hero:} Personally fixed 15+ iPad-specific bugs that were driving the QA team crazy.
-    \item \textbf{Builder:} Developed the Job Details Page and Blog Layout from zero to deployed.
-    \item \textbf{Survivor:} Made it through 7 weeks of agile sprints without missing a major deadline.
+    \item \textbf{Tablet Hero:} Resolved personally 15+ unique issues plaguing iPads that were driving the QA team crazy.
+    \item \textbf{Builder:} Created the Job Details Page and Blog Layout from scratch at deployed.
+    \item \textbf{Survivor:} Withstood 8 weeks of agile sprints without missing a major deadline.
 \end{itemize}
 
 \section*{D. Supervisor Contact Information}
 \begin{itemize}
     \item \textbf{Industrial Supervisor:} MD Tanvir Ahmed
     \item \textbf{Organization:} WeCycle Inc.
-    \item \textbf{Location:} Uttara, Dhaka (Remote collaboration from Bangladesh)
+    \item \textbf{Country:} Bangladesh
 \end{itemize}

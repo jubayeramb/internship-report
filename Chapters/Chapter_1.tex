@@ -1,147 +1,135 @@
 \chapter{Introduction}
 
-\par The transition from academic theory to professional engineering is often abrupt. While university courses provide a strong foundation in algorithms and syntax, they rarely simulate the volatility of a production environment. In a classroom, code is written to pass test cases; in the industry, code is written to survive user interaction, scalability demands, and market pivots. This industrial training at \textbf{Tanbel Inc.} was not just an application of skills—it was an immersion into the reality of modern software development. I moved from writing isolated functions to contributing to a living, breathing product ecosystem, where "urgent" means "now," and stability is the primary metric of success.
-
-\par The objective of this training was to bridge the gap between student mindset and engineer mindset. It required navigating complex codebases, understanding the business logic behind B2C and B2B operations, and delivering features that directly impacted the company's bottom line.
+\par Real world coding is very different from the code we do in our university. Our university projects do not have real user base and we do not face the changes comes with huge user base for a application. Most projects are dummy project works until real users comes and it crashes. This training open my eye that we not only need to make the application functional but also make it scalable and maintainable for future. In university we learn many algorithms but in practice we need to have the knowledge where to implement it correctly. I can not be a student in real world, I need to be a problem solver, a engineer. Sometimes, there is work to do urgent. other times there might be a long deadline. Based on the situation, I learned to act.
 
 \section{Problem Domain}
 
-\par \textbf{Tanbel Inc.} operates at the intersection of logistics and waste management—an industry traditionally bogged down by manual processes and paper trails. The problem is coordination: connecting customers who need junk removed with haulers who have the capacity to remove it, instantly and reliably.
+\par \textbf{WeCycle} is a software solution for junk removal business. We help haulers get jobs and the customers there unecesarry items cleaned. We mainly take our bookings by our website. User can create a booking for junk removal service then we reach out to a hauler give him the task. After the work is done we get paid from the customer and then use pay the hauler after cutting our commission. As \textbf{Full-Stack Web Development}, my work is make this process as automated and smooth as possible. I work on  WeCycle Dashboard Application (WCAPP), ArrayQ and Wecycle website to improve conversion and management easier and implement new features for both customer and haulers.
 
-\par To solve this, Tanbel Inc. deploys two flagship products:
+\par It is a great opportunity for me that I can work with experience team as I am the most junior stuff on the team. I get to learn and guided my all on my work. The work I have done during intership days are:
 \begin{itemize}
-    \item \textbf{WeCycle} (\href{https://getwecycle.com/}{getwecycle.com}): A B2C platform that allows homeowners and businesses to book junk removal services on-demand. Think of it as the "Uber" for junk.
-    \item \textbf{ArrayQ} (\href{https://arrayq.com/}{arrayq.com}): A B2B CRM and dashboard solution designed for haulers to manage their dumpsters, inventory, and schedules efficiently.
+    \item We had to migrate from a Antd component library to a new Shadcn component library. As the Antd components was breaking when we are trying to upgrade our code bases with new tools. So I refactored all the Antd components.
+    \item The whole dashboard design was made responsive as the user might use different devices with different screen sizes. It make the user experience better.
+    \item I had to make the code reusable and modular. Using hooks and other abstraction techniques.
+    \item I had to reuse existing code to make consistent development through codebase.
 \end{itemize}
-
-\par My role as a \textbf{Full-Stack Developer} was to maintain and enhance the digital infrastructure that powers these solutions. Specifically, I worked on the WeCycle Dashboard Application (WCAPP) and the ArrayQ mobile/web platforms, ensuring that the connection between the customer’s request and the hauler’s execution was seamless.
-
-\par As a trainee, I didn’t just watch; I had to get my hands dirty. I ran into a bunch of hurdles:
-\begin{itemize}
-    \item We had to rip out the old Ant Design components and replace them with our custom web-ui library. It was tedious, but necessary.
-    \item I had to make the WCAPP look good on everything—phones, tablets, desktops. If it looked bad on an iPad, it was my problem.
-    \item Debugging state management in a massive app is... painful. But I had to figure it out.
-    \item I also had to learn the codebase without breaking it. It’s intimidating to push code to a repo that people actually depend on.
-\end{itemize}
-
-\par I couldn't have done it alone. My team—supervisors and colleagues—were a huge help. We used the modern stack: React.js, Next.js, and TypeScript. Honestly, it’s the standard now for a reason.
 
 \section{Motivation of Training}
 
-\par Why did I do this? A few reasons:
-
 \begin{itemize}
-    \item \textbf{Actually Using What I Learned:} I wanted to see if the software engineering theories I sat through in class actually hold up. (Spoiler: Some do, some don't.)
-    \item \textbf{Getting Better, Faster:} I needed to get sharp with React.js and Next.js. TypeScript was another beast I wanted to tame.
-    \item \textbf{Agile Chaos:} I wanted to see what "Agile" feels like when deadlines are real.
-    \item \textbf{Meeting People:} It’s not just about code. I wanted to meet developers who have been doing this for years and pick their brains.
-    \item \textbf{Future-Proofing:} I’m trying to build a career here. This was the groundwork.
+    \item \textbf{Learning by Doing:} I wanted to learn by actually doing it. As learning theory after theory, framework after framework it boring. Real challenges and able to solve them sparks the motivation of learning.
+    \item \textbf{Getting Better:} I wanted to master the technologies used to build a application. But there are many things to learn but all of them are not needed. So by working I can getting better with the things actually matters.
+    \item \textbf{Development Cycle:} I wanted to see how a long running project is developed. And discovered the project is based on Agile framework, we have to do frequent changes based on user and hauler requirement and lead the competition.
+    \item \textbf{Improve Networking:} Apart from coding, I did daily meetups, weekly discussion session and numerous one on one session with the team. Which improve my communication and connectivity with others in the same community.
+    \item \textbf{Building Career:} By working and learning, I wanted to make my portfolio strong.
 \end{itemize}
 
 \section{Training Goals}
 
-\par My goals were pretty straightforward:
+\par My goals were:
 
 \begin{itemize}
-    \item Get really, really good at React.js and Next.js.
-    \item Stop solving textbook problems and start solving business problems.
+    \item Get really, really good at development.
+    \item Learn to manage real world problems.
 \end{itemize}
 
 \section{Scope of Training}
 
-\section{Scope of Training}
+\par My work does not only limited on frontend development. Though I was assigned to do frontend work which is design by our designing team. I tried to do backend related works which were relevant to the frontend work. By doing so I can escape my comfort zone, learn new things and boost other developers works.
 
-\par My role was multifaceted, operating across the entire application stack. As a \textbf{Full-Stack Developer}, I was responsible for end-to-end feature delivery—from designing database schemas to deploying pixel-perfect UIs.
-
-\par The scope included:
 \begin{itemize}
-    \item \textbf{Frontend Engineering:} Building responsive interfaces with React.js, Next.js, and Capacitor for mobile.
-    \item \textbf{Backend Development:} Architecting scalable APIs using Node.js and Express.js, and managing data integrity with MongoDB and PostgreSQL.
-    \item \textbf{DevOps \& Infrastructure:} Configuring Docker containers, managing Nginx servers, and optimizing CI/CD workflows with Nx and GitHub Actions.
-    \item \textbf{System Integration:} Connecting third-party services like Stripe (payments) and AI bots to the core platform.
+    \item Implement designs to code in our website.
+    \item Migrate component library to a more reliable one.
+    \item Fixing bugs which where found by myself or reported by the team.
+    \item Making sure responsiveness of the website.
+    \item Giving updates of my work via daily, weekly meetings.
 \end{itemize}
 
-\par I did not stay in a single lane. If a feature required a database migration, I wrote it. If the build pipeline failed, I fixed it. This holistic approach allowed me to understand the software lifecycle in its entirety.
+\par I tried to be a useful addition to the team. My focusing on improvement every day and learning things out of my scope help me climbed up instead of sticking to the same role forever.
 
 \section{The Reality Check: Academia vs. Industry}
 
-\par There is a massive disconnect between what you learn in school and what you do at work. Here’s the truth:
+\par The differnce is noticeable between university learning the Industry standar which are:
 
 \begin{itemize}
-    \item \textbf{Theory vs. Reality:} School teaches you the syntax; work teaches you the context. Knowing *how* to write a loop is easy. Knowing *where* to put it so it doesn't crash the browser is harder.
-    \item \textbf{Tooling Shock:} In university, you maybe use Git once. In the industry, if you don't know Git, Jira, or how to read a PR, you're useless.
-    \item \textbf{The Human Factor:} School projects are usually solo or with friends. Real work is collaborating with people who might disagree with your code style.
-    \item \textbf{Messy Constraints:} In class, you have all semester. In work, you have until Friday, and the specifications just changed this morning.
-    \item \textbf{Legacy Code:} School start projects from scratch (file -> new). Work involves staring at 5-year-old code and trying to figure out what the original developer was thinking.
+    \item \textbf{Theory vs. Reality:} University projects need to be done in limited time frame. So we mostly focus on building features. But in real world the most projects are long running and spend 90 percent for development time on polishing rather than developing.
+    \item \textbf{Tool Stack:} In university, we learn c, c++, java which are not the top choice of most of the industry. The usage level is under 10 percent for most of them. We need to learn the modern tool stack separately to meet the industry standard.
+    \item \textbf{Team work:} University mostly focus on individual skills and our projects are mostly solo made. But in practice projects are made by a team and we need to learn collaboration and manage project as a team using tools like git and github.
+    \item \textbf{Legacy Code:} In university we always do a new project in every semester. However work in a industry might have 5-year-old code and  we need to figure out what the original developer was thinking and understand the codebase.
 \end{itemize}
 
 \section{Pain Points \& Growth}
 
-\subsection{The Hard Stuff (Challenges)}
+\subsection{Challanges}
 \begin{itemize}
-    \item Jumping into a massive codebase is terrifying. You feel like you know nothing.
-    \item Balancing "make it perfect" with "get it done" is a constant struggle.
-    \item Refactoring old components without breaking everything else is stressful.
-    \item Keeping up with the sprint pace—it’s fast.
-    \item CSS media queries are finicky.
+    \item Massive codebase can be overwhelming. As we need to understand the codebase first to start implementing new ones. In reality, most project does not implemented by following the best practices. It is harder to understand others code if they are properly maintained. 
+    \item The constant pressue of delivering features, making the free of bugs and also solving and learning unfamillar issues is quite terrifying work to do.
+    \item While refactoring component we need to write the whole component with the new library with out breaking the existing functionality.
+    \item Finishing the work on time and report to the team lead make the process stressful.
+    \item Sometimes, there might issues related to the tools used to build the project but It is hard to explain to a non-technical person.
 \end{itemize}
 
 \subsection{Where I Grew}
 \begin{itemize}
-    \item My React/Next.js skills are night-and-day better.
-    \item I learned how to actually manage my time.
-    \item I'm comfortable with the tools now—VS Code and I are best friends.
-    \item I learned how to take feedback on my code without taking it personally.
-    \item I can actually debug things now instead of just staring at the screen.
+    \item I am now much better than when I started. I learn new technologies like React Query for caching, Nuqs for URL based state management and improve my existing skills on React, NextJS and TailwindCSS.
+    \item Now I know how to properly manage time and get faster at working and delivering features.
+    \item Now I can prioritize work based on importance which makes by to do list easily manageable without being overwhelmed
+    \item I learned where I go wrong while coding and now I can think like an engineer while tackling a problem.
+    \item Now I can more tolerant to errors. Things will go wrong I can explore different ways to solve the problem instead of giving up.
 \end{itemize}
 
 \section{Detailed Plan}
 
-\par I was at \textbf{Tanbel Inc.} from \textbf{October 13, 2025} to \textbf{December 5, 2025}. I didn't just sit around; I was busy.
+\par I was at \textbf{WeCycle} from \textbf{October 13, 2025} to \textbf{December 5, 2025}.
 
 \subsection{Resources}
 
 \begin{enumerate}
-    \item \textbf{People:} MD Tanvir Ahmed (my supervisor) and the other devs were lifesavers. Code reviews were where the real learning happened.
-    \item \textbf{Technical Resources:} Access to development tools including Visual Studio Code, Git/GitHub, Chrome DevTools, Jira for task management, and the company's internal component libraries and design systems.
+    \item \textbf{People:} MD Tanvir Ahmed (my industrial supervisor) and the Jubayer my team lead was constently guide me and provide reviews where I learned the most.
+    \item \textbf{Technical Resources:} Codebase access on Github, project management access on Jira, and other tools access like Digital Ocean, MongoDB, etc.
 \end{enumerate}
 
 \subsection{Timeline}
 
-\par Here is exactly what I did, week by week. It was a busy two months.
+\par The following is the week by week break down of my work:
 
 \begin{table}[H]
 \centering
 \caption{Project Timeline Planning - Weekly Task Distribution}
 \label{tab:training_timeline}
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{|p{5.5cm}|c|c|c|c|c|c|c|c|}
+\begin{tabular}{|p{5.5cm}|c|c|c|c|c|}
 \hline
-\textbf{Tasks} & \textbf{Wk 1} & \textbf{Wk 2} & \textbf{Wk 3} & \textbf{Wk 4} & \textbf{Wk 5} & \textbf{Wk 6} & \textbf{Wk 7} & \textbf{Wk 8} \\
+\textbf{Tasks} & \textbf{Week 1} & \textbf{Week 2} & \textbf{Week 3} & \textbf{Week 4} & \textbf{Week 5} \\
+ & \textit{Oct 13-17} & \textit{Oct 20-24} & \textit{Oct 27-31} & \textit{Nov 10-14} & \textit{Nov 24-28} \\
 \hline
-Env Setup \& CI/CD Optimization & \checkmark & & & & & & & \\
+Filter UI Fixes (Leads, Client, Jobs) & \checkmark & & & & \\
 \hline
-Mobile App Navigation \& UI Fixes & \checkmark & & & & & & & \\
+Ant Design to Shadcn Migration & \checkmark & \checkmark & \checkmark & & \\
 \hline
-Chatbot Service Deployment & & \checkmark & & & & & & \\
+Bug Fixes (Password Reset, Chat) & \checkmark & \checkmark & & & \\
 \hline
-Staging Database \& Env Config & & \checkmark & & & & & & \\
+Component Development (Google Autocomplete) & & \checkmark & & & \\
 \hline
-Invoice \& Booking Logic Fixes & & & \checkmark & & & & & \\
+Navigation \& Page Setup & & \checkmark & & & \\
 \hline
-CSV Export & Hauler Details Impl. & & & \checkmark & & & & \\
+Mobile/Tablet Responsive Design & & & \checkmark & & \checkmark \\
 \hline
-ArrayQ Site Deployment & Branding & & & & \checkmark & & & \\
+Hauler Features (Search, Settings, Pages) & & & \checkmark & & \\
 \hline
-Blog Page \& Dynamic Content Caching & & & & & \checkmark & & & \\
+Dashboard Editor Enhancements & & & \checkmark & & \\
 \hline
-Blog Fixes \& App Store Review & & & & & & \checkmark & & \\
+Job Details Page Development & & & & \checkmark & \\
 \hline
-Mobile App Pricing & Discount Fixes & & & & & & \checkmark & \\
+Blog Page Layout \& Functionality & & & & \checkmark & \\
 \hline
-Stripe Connect \& Subscription Features & & & & & & & & \checkmark \\
+Advanced Filtering Features & & & & \checkmark & \\
 \hline
-Final Testing \& Documentation & & & & & & & & \checkmark \\
+ArrayQ Landing Page Development & & & & \checkmark & \\
+\hline
+Location Page Content Updates & & & & & \checkmark \\
+\hline
+iPad/Tablet Testing \& Fixes & & & & & \checkmark \\
 \hline
 \end{tabular}%
 }
@@ -150,24 +138,24 @@ Final Testing \& Documentation & & & & & & & & \checkmark \\
 \section{Risk Analysis: What Could Go Wrong?}
 
 \begin{itemize}
-    \item \textbf{Technical Challenges:} Sometimes I got stuck. The fix? Ask for help, read the docs, try again.
-    \item \textbf{Timeline Risks:} Sprints move fast. I had to break tasks down so I didn't drown.
-    \item \textbf{Communication Barriers:} Remote work is hard. Slack and Google Meet were the lifelines.
-    \item \textbf{Quality:} We tested everything. I didn't want to be the guy who broke production.
+    \item \textbf{Technical Challenges:} The tech is consistently changing, we do not know everything so we need to ask help from seniors or read the docs.
+    \item \textbf{Deadline and Quality:} Most of the time the deadline is underestimated resulting constent pressure of missing deadline without breaking the production.
+    \item \textbf{Communication Barriers:} We need to attend meetings outside of our working hours resulting poor communication.
 \end{itemize}
 
 \section{Report Outline}
 
 \begin{itemize}
-    \item \textbf{Chapter 2:} Who is \textbf{WeCycle}? The organization structure and mission.
-    \item \textbf{Chapter 3:} What I actually did—tools and workflows.
-    \item \textbf{Chapter 4:} The skills—what I learned.
-    \item \textbf{Chapter 5:} Final thoughts—the conclusion.
-    \item \textbf{Chapter 6:} Mapping outcomes (The official stuff).
-    \item \textbf{Chapter 7:} SDG Goals (Sustainability mapping).
+    \item \textbf{Chapter 2:} Organization structure and mission of \textbf{WeCycle}.
+    \item \textbf{Chapter 3:} Training activity details
+    \item \textbf{Chapter 4:} Acquired skills.
+    \item \textbf{Chapter 5:} Conclusion.
+    \item \textbf{Chapter 6:} Mapping outcomes.
+    \item \textbf{Chapter 7:} SDG Goals.
     \item \textbf{Chapter 8:} Appendix—The weekly logs.
 \end{itemize}
 
 \section{Conclusion}
 
-\par This wasn't just an internship. It was a reality check. WeCycle didn't hold my hand; they let me work. I wrote real code for real users, and that changes how you think. It’s one thing to pass an exam. It’s another to fix a bug while your project manager is waiting. Honestly? I learned more here in a few weeks than I did in years of lectures. I’m not just ready to work. I’m ready to solve problems.
+\par Working in WeCycle change a lot of things for me. I learned a lot of things and improve my portfolio and networking.
+I am able to experience the real world challenges a project with large user based need to face. And get exposer of modern techonologies. Now, I think to solve a problem rather than fininshing a task which helped me to be a real problem solver.
