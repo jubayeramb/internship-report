@@ -15,13 +15,14 @@
 \usepackage{booktabs}
 \usepackage{adjustbox}
 \usepackage{caption}
+\usepackage{hyperref}
 
 % Graphics Path
 \graphicspath{{figures/}}
 
 % Title Information
 \title[Internship Defense]{Industrial Training Defense}
-\subtitle{Full-Stack Web Development at WeCycle}
+\subtitle{Full-Stack Web Development at Tanbel Inc.}
 \author{Jubaer Al Mamun \scriptsize\textit{(Software Engineer, Tanbel Inc., Dec 2023 - Present)} \\ ID: 221902013}
 \institute{Department of CSE \\ Green University of Bangladesh}
 \date{Fall 2025}
@@ -48,7 +49,52 @@
 \end{frame}
 }
 
-% Slide 2: Table of Contents
+% Slide 2: Acknowledgment - Supervisors & Board Members
+\begin{frame}{Acknowledgment}
+    % Supervisors Section
+    \textbf{\Large Supervisors}
+    \vspace{0.3cm}
+    
+    \begin{columns}[T]
+        \column{0.5\textwidth}
+        \centering
+        \textbf{Academic Supervisor}\\
+        \vspace{0.1cm}
+        Md. Parvez Hossain\\
+        \textit{Lecturer, Dept. of CSE}\\
+        Green University of Bangladesh
+
+        \column{0.5\textwidth}
+        \centering
+        \textbf{Industrial Supervisor}\\
+        \vspace{0.1cm}
+        MD Tanvir Ahmed\\
+        \textit{Product Manager}\\
+        Tanbel Inc. (WeCycle)
+    \end{columns}
+
+    \vspace{0.6cm}
+
+    % Board Members Section
+    \textbf{\Large Board Members}
+    \vspace{0.3cm}
+    
+    \begin{columns}[T]
+        \column{0.5\textwidth}
+        \centering
+        Fatema Akter\\
+        \textit{Lecturer, Dept. of CSE}\\
+        Green University of Bangladesh
+
+        \column{0.5\textwidth}
+        \centering
+        Mayeesha Farjana\\
+        \textit{Lecturer, Dept. of CSE}\\
+        Green University of Bangladesh
+    \end{columns}
+\end{frame}
+
+% Slide 3: Table of Contents
 \begin{frame}{Contents}
     \tableofcontents
 \end{frame}
@@ -58,7 +104,7 @@
 \begin{frame}{Organization Overview}
     \begin{columns}
         \column{0.55\textwidth}
-        \textbf{Tanbel Inc. (WeCycle / ArrayQ)}
+        \textbf{Tanbel Inc. (WeCycle / ArrayQ) [1], [2]}
         \begin{itemize}
             \item \textbf{Industry:} Junk Removal SaaS.
             \item \textbf{Location:} United States (Remote Team).
@@ -99,7 +145,7 @@
             \item \textbf{ArrayQ Launch:} Developed B2B landing page with multi-tenant branding.
             \item \textbf{AI Chatbot:} Deployed Dockerized chatbot with Nginx \& SSL.
             \item \textbf{Stripe Connect:} Automated hauler payouts.
-            \item \textbf{UI Migration:} Migrated 10+ pages from Ant Design to Shadcn/ui.
+            \item \textbf{UI Migration:} Migrated 10+ pages from Ant Design to Shadcn/ui [6].
         \end{itemize}
 
         \column{0.5\textwidth}
@@ -118,7 +164,7 @@
         \column{0.5\textwidth}
         \textbf{Technical Skills:}
         \begin{itemize}
-            \item \textbf{Frontend:} Next.js 14, React, TypeScript, Tailwind CSS.
+            \item \textbf{Frontend:} Next.js 14 [3], React [4], TypeScript, Tailwind CSS [5].
             \item \textbf{Backend:} Node.js, Express, REST APIs.
             \item \textbf{Mobile:} Capacitor.js, React Native.
             \item \textbf{DevOps:} Docker, Nginx, GitHub Actions CI/CD.
@@ -155,7 +201,7 @@
             PO1: Engineering Knowledge & Algorithmic Logic & Complex lead filtering systems. \\
             PO2: Problem Analysis & Debugging & Diagnosed 15+ iPad-specific UI bugs. \\
             PO3: Design/Development & Scalable Architecture & Job Details \& Blog page design. \\
-            PO5: Modern Tools & Industry Stack & Next.js, Docker, Jira, CI/CD. \\
+            PO5: Modern Tools & Industry Stack & Next.js [3], Docker, Jira, CI/CD. \\
             PO9: Teamwork & Collaboration & Daily standups, peer code reviews. \\
             PO12: Lifelong Learning & Self-Learning & Google Places API, advanced TS. \\
             \bottomrule
@@ -200,12 +246,35 @@
         \item Gained confidence in navigating complexities of a \textbf{remote startup}.
         \item Ready to contribute effectively to the \textbf{software industry}.
     \end{itemize}
+\end{frame}
 
-    \vspace{0.8cm}
-    \Large \textbf{Thank You!}
+% References Slide
+\begin{frame}{References}
+    \footnotesize
+    \begin{enumerate}
+        \item WeCycle, ``WeCycle: Eco-Friendly Junk Removal and Recycling Services,'' 2024. [Online]. Available: \url{https://getwecycle.com/}
+        \item WeCycle, ``WeCycle Hauler: Professional Junk Hauling Services,'' 2024. [Online]. Available: \url{https://getwecycle.com/hauler}
+        \item Vercel Inc., ``Next.js Documentation,'' 2024. [Online]. Available: \url{https://nextjs.org/docs}
+        \item Meta Platforms, Inc., ``React Learn: Getting Started with React,'' 2024. [Online]. Available: \url{https://react.dev/learn}
+        \item Tailwind Labs Inc., ``Tailwind CSS Documentation,'' 2024. [Online]. Available: \url{https://tailwindcss.com/docs}
+        \item shadcn, ``shadcn/ui: Beautifully Designed Components,'' 2024. [Online]. Available: \url{https://ui.shadcn.com/docs}
+    \end{enumerate}
+\end{frame}
 
-    \vspace{0.3cm}
-    \normalsize \textit{Questions?}
+% Thank You Slide
+\begin{frame}
+    \centering
+    \vspace{2cm}
+    {\Huge \textbf{Thank You!}}
+    
+    \vspace{1cm}
+    {\Large \textit{Questions?}}
+    
+    \vspace{1.5cm}
+    \normalsize
+    Jubaer Al Mamun\\
+    ID: 221902013\\
+    Department of CSE, Green University of Bangladesh
 \end{frame}
 
 \end{document}

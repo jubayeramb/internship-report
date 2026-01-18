@@ -10,7 +10,17 @@
 
 ---
 
-## Slide 2: Table of Contents
+## Slide 2: Acknowledgment
+
+- **Purpose**: Before I begin, I would like to acknowledge the people who made this training possible.
+- **Academic Supervisor**: Md. Parvez Hossain, Lecturer at the Department of CSE, guided me throughout this journey.
+- **Industrial Supervisor**: MD Tanvir Ahmed from Tanbel Inc. (WeCycle) supervised my work on the product side.
+- **Board Members**: I am grateful to Prof. Dr. Md. Fazlul Haque, Head of Department, and the Internship Coordinator for their support.
+- _(Pause briefly to acknowledge them if present.)_
+
+---
+
+## Slide 3: Table of Contents
 
 - **Overview**: Today I will cover six key areas of my internship experience.
 - **Sections**:
@@ -24,9 +34,9 @@
 
 ---
 
-## Slide 3: Organization Overview
+## Slide 4: Organization Overview
 
-- **Company**: WeCycle is a product of Tanbel Inc. Think of it as "Uber for Junk"—we connect customers who need junk removed with local haulers.
+- **Company**: WeCycle is a product of Tanbel Inc. [1], [2]. Think of it as "Uber for Junk"—we connect customers who need junk removed with local haulers.
 - **Products**:
   - **WeCycle (B2C)**: On-demand junk removal for homeowners and businesses.
   - **ArrayQ (B2B)**: A SaaS CRM dashboard specifically for haulers to manage their inventory and dumpsters.
@@ -36,22 +46,23 @@
 
 ---
 
-## Slide 4: Specific Details on Training Activities
+## Slide 5: Specific Details on Training Activities
 
 - **My Role**: I worked as a Full-Stack Web Developer for 8 weeks.
 - **Key Projects**:
   1. **ArrayQ Launch**: I developed the landing page for ArrayQ, including multi-tenant branding to differentiate it from WeCycle.
   2. **AI Chatbot**: I deployed an AI-powered chatbot using Docker and Nginx on a DigitalOcean droplet with SSL configuration.
   3. **Stripe Connect**: I implemented Stripe Connect to automate financial payouts to haulers.
-  4. **UI Migration**: I migrated over 10 legacy pages from Ant Design to our new Shadcn/ui component library.
+  4. **UI Migration**: I migrated over 10 legacy pages from Ant Design to our new Shadcn/ui component library [6].
 - **Figure 3**: Shows the Jobs Management Dashboard, one of the core areas I worked on.
 
 ---
 
-## Slide 5: Acquired Skills During Industrial Training
+## Slide 6: Acquired Skills During Industrial Training
 
 - **Technical Growth**:
-  - Mastered **Next.js 14** with server-side rendering and **TypeScript** for type-safe development.
+  - Mastered **Next.js 14** [3] with server-side rendering and **TypeScript** for type-safe development.
+  - Used **React** [4] extensively with **Tailwind CSS** [5] for styling.
   - Learned **DevOps** practices: Dockerizing applications, Nginx configuration, and CI/CD pipelines using GitHub Actions.
   - Worked on **mobile development** using Capacitor.js and React Native.
 - **Professional Skills**:
@@ -62,20 +73,20 @@
 
 ---
 
-## Slide 6: PO-Skill Mapping
+## Slide 7: PO-Skill Mapping
 
 - **Purpose**: This slide maps my work to the Program Outcomes (POs) required by our curriculum.
 - **Key Mappings (Table 1)**:
   - **PO1 (Engineering Knowledge)**: Applied algorithmic logic to build complex filtering systems.
   - **PO2 (Problem Analysis)**: Debugged real-world issues like iPad-specific UI bugs.
   - **PO3 (Design/Development)**: Architected scalable pages like Job Details and Blog.
-  - **PO5 (Modern Tools)**: Used industry-standard tools like Next.js, Docker, and Jira.
+  - **PO5 (Modern Tools)**: Used industry-standard tools like Next.js [3], Docker, and Jira.
   - **PO9 (Teamwork)**: Collaborated daily through standups and code reviews.
   - **PO12 (Lifelong Learning)**: Self-taught advanced TypeScript and Google Places API integration.
 
 ---
 
-## Slide 7: SDG-Goal Mapping
+## Slide 8: SDG-Goal Mapping
 
 - **Impact**: My work contributed to several Sustainable Development Goals.
 - **Key SDGs (Table 2)**:
@@ -86,7 +97,7 @@
 
 ---
 
-## Slide 8: Conclusion
+## Slide 9: Conclusion
 
 - **Summary**: To summarize my experience—I didn't just learn; I shipped code to production.
 - **Achievements**:
@@ -94,4 +105,18 @@
   - Successfully transitioned from **academic projects** to **production engineering**.
 - **Transformation**: This training transformed me from a student who knows how to code into a software engineer who knows how to build products.
 - **Future**: I am now confident and ready to take on challenges in the professional software industry.
-- **Closing**: Thank you for listening. I am happy to answer any questions.
+
+---
+
+## Slide 10: References
+
+- **Purpose**: This slide lists the IEEE-formatted references cited in the presentation.
+- **Note**: The references include WeCycle website [1], [2], Next.js documentation [3], React documentation [4], Tailwind CSS documentation [5], and Shadcn/ui documentation [6].
+- _(This is a quick acknowledgment slide; do not read out every reference unless asked.)_
+
+---
+
+## Slide 11: Thank You
+
+- **Closing**: Thank you for listening. I am happy to answer any questions you may have.
+- _(Smile, make eye contact, and prepare for questions.)_
